@@ -41,8 +41,14 @@
         [sender setBackgroundImage: [UIImage imageNamed: @"cardfront"]
                           forState: UIControlStateNormal];
         
-        // PlayingCard *drawnCard = [self.deckOfCards drawRandomCard];
-        [sender setTitle: [self.deckOfCards drawRandomCard].contents forState: UIControlStateNormal];
+        Card * drawnCard = [self.deckOfCards drawRandomCard];
+        if(drawnCard != nil) {
+            [sender setTitle: drawnCard.contents forState: UIControlStateNormal];
+        }
+        else {
+            [sender setTitle: @"FIN" forState: UIControlStateNormal];
+        }
+        
     }
     self.flipCount++;
 }
