@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>414623AB-AA55-4D10-9C84-6D0D8FC9919A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Matchismo2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F40A14F457B656978AC7CB3137AF188191136CAF</key>
 		<string>https://github.com/JoshBollar/IPhoneDevelopmentCS193p.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Machismo2/Matchismo2.xcodeproj/project.xcworkspace</string>
+	<string>Machismo2/Matchismo2.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F40A14F457B656978AC7CB3137AF188191136CAF</key>

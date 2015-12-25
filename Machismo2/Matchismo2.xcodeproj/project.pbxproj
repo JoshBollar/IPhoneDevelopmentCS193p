@@ -18,6 +18,7 @@
 		03AF5BE21C2D958E00F5C130 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF5BE11C2D958E00F5C130 /* Deck.m */; };
 		03AF5BE61C2D9B6E00F5C130 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF5BE51C2D9B6E00F5C130 /* PlayingCard.m */; };
 		03AF5BEB1C2DA1F100F5C130 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF5BEA1C2DA1F100F5C130 /* PlayingCardDeck.m */; };
+		03F689671C2DC9A300F4DB55 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F689661C2DC9A300F4DB55 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		03AF5BE81C2D9B8E00F5C130 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		03AF5BE91C2DA1DC00F5C130 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		03AF5BEA1C2DA1F100F5C130 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		03F689661C2DC9A300F4DB55 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		03F689681C2DCA3A00F4DB55 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 		03AF5BDF1C2D953100F5C130 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03F689661C2DC9A300F4DB55 /* CardMatchingGame.m */,
+				03F689681C2DCA3A00F4DB55 /* CardMatchingGame.h */,
 				03AF5BE01C2D957900F5C130 /* Deck.h */,
 				03AF5BE11C2D958E00F5C130 /* Deck.m */,
 				03AF5BDE1C2D8FE700F5C130 /* Card.h */,
@@ -251,6 +256,7 @@
 				03AF5BE21C2D958E00F5C130 /* Deck.m in Sources */,
 				03AF5BBD1C2CC19100F5C130 /* ViewController.m in Sources */,
 				03AF5BBA1C2CC19100F5C130 /* AppDelegate.m in Sources */,
+				03F689671C2DC9A300F4DB55 /* CardMatchingGame.m in Sources */,
 				03AF5BEB1C2DA1F100F5C130 /* PlayingCardDeck.m in Sources */,
 				03AF5BB71C2CC19100F5C130 /* main.m in Sources */,
 				03AF5BDC1C2D8EA400F5C130 /* Card.m in Sources */,
